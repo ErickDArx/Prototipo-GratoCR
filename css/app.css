@@ -1,5 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
+
+/*! 
+Estilos personalizados
+*/
+
+.oscurecer {
+    background-color: rgba(0,0,0,0.8);
+    background-image:url(http://www.gelfuzion.com/img/slides/nivo/bg-1.jpg);
+    height: 500px;
+    max-width: 100%;
+    filter:brightness(0.4);
+  }
+
+/*! 
+--------------------------------------------------------------
+*/
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
