@@ -2,78 +2,127 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principal</title>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
 
-    <link rel="icon" type="image/png" href="/Laravel/public/img/logo.png" />
-
-    <link rel="stylesheet" href="/css/app.css">
-    <script src="/js/app.js"></script>
-    <!-- jquery & iScroll -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
-    <!-- drawer.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.drawer').drawer();
-            $('.js-tilt').tilt({
-                option: value,
-                option: value,
-            });
-        });
-    </script>
+  <link rel="icon" type="image/png" href="/Laravel/public/img/logo.png" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/css/app.css">
+  <script src="/js/app.js"></script>
+  <!-- jquery & iScroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <!-- drawer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.drawer').drawer();
+      $('.js-tilt').tilt({
+        option: value,
+        option: value,
+      });
+    });
+  </script>
 </head>
 
 <body class="drawer drawer--left drawer--sidebar" style="background-color:#E6E6E6 ;">
-    <header role="banner">
-      <button type="button" class="drawer-toggle drawer-hamburger">
-        <span class="sr-only">toggle navigation</span>
-        <span class="drawer-hamburger-icon"></span>
-      </button>
-      <nav class="drawer-nav" role="navigation" style="">
-        <ul class="drawer-menu">
-          <li><a class="drawer-brand" href="#">Brand</a></li>
-          <li><a class="drawer-menu-item" href="#">Nav1</a></li>
-          <li><a class="drawer-menu-item" href="#">Nav2</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main role="main" class="drawer-contents" style="background-color:#E6E6E6 ;">
-        <nav class="navbar navbar-light bg-white nav justify-content-center">
-            <img src="/media/Grupo 1.png" alt="" class="img-fluid" style="width: 6rem;">
-          </nav>
-        <div class="row mr-2 ml-2 mt-3" >
-            <div class="col-md-8">
-              <div class="card shadow">
-                <div class="card-body">
-
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card shadow">
-                <div class="card-body text-center">
-                    <h4>12:45 PM</h4>
-                    <p>Lunes 1 de Enero del 2020</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-8">
-              </div>
-              <div class="col-sm-4 mt-2">
-                <div class="card shadow">
-                  <div class="card-body">
-  
-                  </div>
-                </div>
-              </div>
+  <header role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger rounded-circle shadow-sm bg-white ml-3 mt-3">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <nav class="drawer-nav " role="navigation" style="background-color:#343838;">
+      <ul class="drawer-menu">
+        <li class="card bg-white border-0 rounded-0" style="padding-bottom: 6rem;"></li>
+        <li><a class="drawer-menu-item" href="#">Nav1</a></li>
+        <li><a class="drawer-menu-item" href="#">Nav2</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main" class="drawer-contents" style="background-color:#E6E6E6 ;">
+    <nav class="navbar navbar-light bg-white nav justify-content-center border-0">
+      <img src="/media/Grupo 1.png" alt="" class="img-fluid" style="width: 6rem;">
+    </nav>
+    <div class="row mr-2 ml-2 mt-3">
+      <div class="col-md-8 mb-2">
+        <div class="card shadow" style="border-radius: 0.5rem;">
+          <div class="card-body">
+            <h3>Menu Principal</h3>
           </div>
-    </main>
-  </body>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow" style="border-radius: 0.5rem;">
+          <div class="card-body text-center">
+            <h4>12:45 PM</h4>
+            <p>Lunes 1 de Enero del 2020</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8">
+      </div>
+      <div class="col-md-4 mt-2">
+        <div class="card shadow" style="border-radius: 0.5rem;">
+          <div class="card-body">
+            <h5 class="text-center mb-3">Acciones Rapidas</h5>
+            <div class=" mt-2">
+              <a class="shadow-sm btn btn-block" href="Acceso.html">
+                <div class="row text-dark">
+                  <p class="m-0 col-8 text-left">Alistar pedido</p>
+                  <p class="m-0 col-4 text-right text-danger material-icons">
+                    navigate_next
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class=" mt-2">
+              <a class="shadow-sm btn btn-block" href="">
+                <div class="row text-dark">
+                  <p class="m-0 col-8 text-left">Ver los pedidos hechos</p>
+                  <p class="m-0 col-4 text-right text-danger material-icons">
+                    navigate_next
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class=" mt-2">
+              <a class="shadow-sm btn btn-block" href="">
+                <div class="row text-dark">
+                  <p class="m-0 col-8 text-left">Ingresar materia prima</p>
+                  <p class="m-0 col-4 text-right text-danger material-icons">
+                    navigate_next
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class=" mt-2">
+              <a class="shadow-sm btn btn-block" href="">
+                <div class="row text-dark">
+                  <p class="m-0 col-8 text-left">Ingresar nuevo equipo</p>
+                  <p class="m-0 col-4 text-right text-danger material-icons">
+                    navigate_next
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mt-2">
+        <div class="card shadow" style="border-radius: 0.5rem;">
+          <div class="card-body text-center">
+            Grato Pastas Artesanales 2021
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</body>
+
 </html>
