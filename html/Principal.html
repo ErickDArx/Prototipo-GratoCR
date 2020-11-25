@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,46 +20,60 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('.drawer').drawer();
-                    $('.js-tilt').tilt({
-            option: value
-            ,option: value
-        , });
+            $('.js-tilt').tilt({
+                option: value,
+                option: value,
+            });
         });
     </script>
 </head>
-<body>
-    <header>
-        <body class="drawer drawer--left drawer--navbarTopGutter" >
-    
-            <header class="drawer-navbar drawer-navbar--fixed" role="banner" style="">
-        
-                <div class="drawer-container">
-                    <div class="drawer-navbar-header border-primary mb-5" style="">
-                        <a class="drawer-brand text-white" href="Principal.html" style="">
-                        <img src="/media/Grupo 1.png" alt="" class="img-fluid" style="width: 5rem;">
-                        </a>
-                        <button type="button" class="drawer-toggle drawer-hamburger" style="" class="rounded-circle bg-dark">
-                            <span class="sr-only">toggle navigation</span>
-                            <span class="drawer-hamburger-icon"></span>
-                        </button>
-                    </div>
-                    <nav class="drawer-nav " style="background: #1a1a2e" role="navigation">
-                        <ul class="drawer-menu drawer-menu--right ">
-                            <li><a class="drawer-menu-item text-decoration-none text-white" href="#">Acerca de</a></li>
-                            <li><a class="drawer-menu-item text-decoration-none text-white" href="#">Sobre Nosotros</a></li>
-                            <li><a class="drawer-menu-item text-decoration-none text-white" href="#">Contactenos</a></li>
-        
-                </div>
-                </ul>
-                </nav>
-                </div>
-            </header>
-            <main role="main">
 
-            </main>
-        </body>
+<body class="drawer drawer--left drawer--sidebar" style="background-color:#E6E6E6 ;">
+    <header role="banner">
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+      <nav class="drawer-nav" role="navigation" style="">
+        <ul class="drawer-menu">
+          <li><a class="drawer-brand" href="#">Brand</a></li>
+          <li><a class="drawer-menu-item" href="#">Nav1</a></li>
+          <li><a class="drawer-menu-item" href="#">Nav2</a></li>
+        </ul>
+      </nav>
     </header>
-</body>
+    <main role="main" class="drawer-contents" style="background-color:#E6E6E6 ;">
+        <nav class="navbar navbar-light bg-white nav justify-content-center">
+            <img src="/media/Grupo 1.png" alt="" class="img-fluid" style="width: 6rem;">
+          </nav>
+        <div class="row mr-2 ml-2 mt-3" >
+            <div class="col-md-8">
+              <div class="card shadow">
+                <div class="card-body">
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow">
+                <div class="card-body text-center">
+                    <h4>12:45 PM</h4>
+                    <p>Lunes 1 de Enero del 2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8">
+              </div>
+              <div class="col-sm-4 mt-2">
+                <div class="card shadow">
+                  <div class="card-body">
+  
+                  </div>
+                </div>
+              </div>
+          </div>
+    </main>
+  </body>
 </html>
